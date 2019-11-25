@@ -89,7 +89,7 @@ app.get('/help/*', (req, res) => {
 app.get('*', (req, res) => {
     res.render('404', {
         title: '404',
-        name: 'Vishal Kalappagari',
+        name: 'Vishal Nirali',
         message: 'Page not found'
     })
 })
